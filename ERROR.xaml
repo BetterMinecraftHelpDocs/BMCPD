@@ -1,13 +1,12 @@
 
-<local:MyCard Title="施工中/网络错误/服务器未响应">
+<local:MyCard Title="服务器.exe未响应">
     <StackPanel Margin="25,30,25,30">
         <TextBlock Margin="0,0,0,4" Foreground="Red"
-                   Text="404" FontSize="70" TextAlignment = "Center" FontWeight="Bold"/>
-        <TextBlock Margin="0,0,0,4" Foreground="Red"
-                   Text="Not Found" FontSize="70" TextAlignment = "Center" FontWeight="Bold"/>           
+                   Text="- 404 -" FontSize="50" TextAlignment = "Center" FontWeight="Bold"/>
+        <TextBlock Margin="0,0,0,4" Foreground="Red" FontSize="16"
+                   Text="Not Found" TextAlignment = "Center"/>           
         <TextBlock Margin="0,0,0,4" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
-                   Text="施工中/懒得更新/游戏时间/报错（（（" TextAlignment = "Center"/>
-    <Image Height="250" HorizontalAlignment="Center" Source="" />
+                   Text="也许我们服务器变土豆了？" TextAlignment = "Center"/>
      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,25,0,0">
       <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
                         Text="刷新当前页面" EventType="刷新主页" ToolTip="请重新获取当前页面" />
@@ -17,13 +16,9 @@
                         Text="提交Issue" EventType="打开网页" EventData="https://bmchd.suto.eu.org/" />
      </StackPanel>    
         <TextBlock Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
-                   Text="Copyright © 2024 BetterMinecraftHelpDocs Project-BMCPD项目组" TextAlignment = "Center"/>
-        <TextBlock Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
-                   Text="本站及下属项目组与 网易公司 以及 Mojang Studio 无从属关系" TextAlignment = "Center"/>
-        <TextBlock Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
-                   Text="Development Mode ON" TextAlignment = "Center"/>
+                   Text="Debug Mode On" TextAlignment = "Center"/>
     </StackPanel>
 </local:MyCard>
 
 <!--BMCPD项目组施工中 Loading！-->
-<!--408 Request Time-out 404 Not Found 403 Unauthorized-->
+<!--未找到文件 404 Not Found -->
