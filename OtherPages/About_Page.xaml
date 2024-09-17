@@ -1,0 +1,173 @@
+
+    <StackPanel  Margin="25,10" Grid.IsSharedSizeScope="True">
+			<local:MyCard Margin="0,15" Title="关于">
+                <Grid Margin="21,40,21,16">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="60" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40" />
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="150" />
+                    </Grid.ColumnDefinitions>
+                    <local:MyListItem IsHitTestVisible="False" Title="Joker2184" Margin="-5,0,15,0" Info="初始UI设计 具体页面规划 主页管理/项目提出者" Grid.Row="0" Grid.Column="1" />
+                    <local:MyListItem IsHitTestVisible="False" Title="更好的MC帮助文档 [Homepage For PCL2]" Margin="-5,0,15,0" Info="Version：0d57feb[Snapshot]" Grid.Row="1" Grid.Column="1" x:Name="ItemAboutPcl" />
+					<Image Source="/Plain Craft Launcher 2;component/Images/Heads/Logo.png" Grid.Row="1" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="/Plain Craft Launcher 2;component/Images/Heads/LTCat.jpg" Grid.Row="0" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <local:MyButton Text="Join Us | 加入我们" Grid.Column="2" Grid.Row="0" Height="35" EventType="打开网页" EventData="https://afdian.com/a/LTCat" />
+                    <local:MyButton Text="查看源代码" Grid.Column="2" Grid.Row="1" Height="35" EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2" />
+                </Grid>
+            </local:MyCard>
+            <local:MyCard Margin="0,0,0,15" Title="特别鸣谢">
+                <Grid Margin="21,40,21,16">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
+                        <RowDefinition Height="45" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40" />
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="150" />
+                    </Grid.ColumnDefinitions>
+					<local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="服务器提供 初始UI设计编写者 群内隐藏大佬" Grid.Row="0" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]LIPiston" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="1" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="2" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="3" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]p" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="4" Grid.Column="1" />
+                    <local:MyListItem Title="[外援]最亮的信标" Margin="-5,0,15,0" IsHitTestVisible="False" Info="主页大部分UI由信标设计的 [Joker Say->UI设计这玩意不适合咱理科生]" Grid.Row="5" Grid.Column="1" />
+                    <local:MyListItem Title="[生成器]HomepageBuilder" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="由最亮的信标编写的主页生成器" Grid.Row="6" Grid.Column="1" />
+                    <!--
+                    
+                    <local:MyListItem Title="" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="7" Grid.Column="1" />-->
+                    <Image Source="I Wait Image Bed" Grid.Row="0" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="I Wait Image Bed" Grid.Row="1" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="I Wait Image Bed" Grid.Row="2" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="I Wait Image Bed" Grid.Row="3" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="I Wait Image Bed" Grid.Row="4" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="I Wait Image Bed" Grid.Row="5" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <Image Source="I Wait Image Bed" Grid.Row="6" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>
+                    <!--<Image Source="I Wait Image Bed" Grid.Row="7" Margin="3">
+                        <Image.Clip>
+                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
+                        </Image.Clip>
+                    </Image>-->
+                </Grid>
+            </local:MyCard>
+            
+            <local:MyCard Margin="0,0,0,15" Title="法律信息" >
+                <StackPanel Margin="25,39,23,20">
+                    <TextBlock Text="版权信息" TextWrapping="Wrap" Margin="0,12,0,4" FontWeight="Bold" />
+                    <TextBlock Margin="0,0,0,2" LineHeight="17" Text="Copyright © 2024 BetterMinecraftHelpDocs Project" TextWrapping="Wrap" />
+					<TextBlock Margin="0,0,0,2" LineHeight="17" Text="本组织与 网易公司 以及 Mojang Studio 无从属关系" TextWrapping="Wrap" />
+                    <StackPanel Orientation="Horizontal" Height="35" HorizontalAlignment="Left" Margin="0,12,0,0">
+                        <local:MyButton Text="开源代码" Width="170" Padding="13,0" Margin="0,0,20,0" ColorType="Highlight" EventType="打开网页" EventData="https://shimo.im/docs/rGrd8pY8xWkt6ryW" />
+                    </StackPanel>
+                </StackPanel>
+            </local:MyCard>
+            <local:MyCard Margin="0,0,0,15" Title="许可与版权声明" >
+                <Grid Margin="25,42,23,4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="60" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="60" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="60" />
+
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Plain Craft Launcher2" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 LTCat&#xa;[具体使用页面：About_Page.xaml]" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="1" Grid.Column="2" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/Plain%20Craft%20Launcher%202/Pages/PageOther/PageOtherAbout.xaml" />
+                    <local:MyButton Grid.Row="1" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE" />
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="BetterMinecraftHelpDocs Project" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 BetterMinecraftHelpDocs Project&#xa;[具体使用页面：%Text%_Page.xaml]" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="3" Grid.Column="2" MinWidth="140" Text="查看文档.md文件" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://bmchd.suto.eu.org/" />
+                    <local:MyButton Grid.Row="3" Grid.Column="3" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://bmchd.suto.eu.org/" />
+					<TextBlock Grid.Row="4" Grid.Column="0" Text="Iconfont" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © ALIMAMA MUX, powered by alimama THX.&#xa;[具体使用页面：All Page SVG Logo]" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="5" Grid.Column="2" MinWidth="140" Text="查看原网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://www.iconfont.cn/" />
+                </Grid>
+            </local:MyCard>
+          
+		</StackPanel>
+
+<!--<local:MyCard Margin="0,0,0,15" Title="">
+                <StackPanel Margin="25,40,10,20">
+                    <TextBlock HorizontalAlignment="Left" Text="" Margin="0,0,25,5.5" TextTrimming="None" TextWrapping="WrapWithOverflow" />
+                    <WrapPanel Margin="0,0,0,10">
+                        <TextBlock Width="120" Margin="0,1.5" Text="" />
+                        <TextBlock Width="120" Margin="0,1.5" Text="" />
+
+                    </WrapPanel>
+                    <Grid Height="35">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Button" />
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Button" />
+                            <ColumnDefinition Width="Auto" SharedSizeGroup="Button" />
+                        </Grid.ColumnDefinitions>
+                        <local:MyButton x:Name="BtnDonateOutput" Grid.Column="0" MinWidth="140" Text="生成解锁码" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight" Visibility="Collapsed" />
+                        <local:MyButton x:Name="BtnDonateDonate" Grid.Column="0" MinWidth="140" Text="赞助作者" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" ColorType="Highlight" EventType="打开网页" EventData="https://afdian.com/a/LTCat" />
+                        <local:MyButton x:Name="BtnDonateCopy" Grid.Column="1" MinWidth="140" Text="复制识别码" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" />
+                        <local:MyButton x:Name="BtnDonateInput" Grid.Column="2" MinWidth="140" Text="输入解锁码" Padding="13,0" Margin="0,0,20,0" HorizontalAlignment="Left" />
+                    </Grid>
+                </StackPanel>
+				<local:MyIconTextButton Margin="0,4,0,8" Height="35" HorizontalAlignment="Left" 
+                    Text="本页面采用代码由PCL代码库提供 Designed by LTCat[龙腾猫跃] " EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2"
+                    LogoScale="1.02" Logo="M149.883623 873.911618c47.094581 47.094581 101.765247 83.95121 162.783444 109.75085 63.065787 26.618676 130.226755 40.337532 199.230553 40.337532 69.003799 0 136.164767-13.514097 199.230554-40.337532 61.018196-25.79964 115.688862-62.656269 162.783444-109.75085s83.95121-101.765247 109.75085-162.783444c26.618676-63.065787 40.337532-130.226755 40.337532-199.230554 0-69.003799-13.514097-136.164767-40.337532-199.230553-25.79964-61.018196-62.656269-115.688862-109.75085-162.783444-46.889822-46.889822-101.765247-83.95121-162.783444-109.75085C648.062388 13.514097 580.90142 0 511.89762 0s-136.164767 13.514097-199.230553 40.337532c-61.018196 25.79964-115.688862 62.656269-162.783444 109.75085s-83.95121 101.765247-109.75085 162.783444C13.514097 375.732853 0 442.893821 0 511.89762s13.514097 136.164767 40.337532 199.230554c25.594881 61.018196 62.656269 115.688862 109.546091 162.783444zM97.670066 511.89762c0-228.511098 185.921216-414.227554 414.227554-414.227554 228.511098 0 414.227554 185.921216 414.227555 414.227554S740.408718 926.125175 511.89762 926.125175c-228.511098 0-414.227554-185.716457-414.227554-414.227555z M539.130574 244.277544c-8.190362-4.709458-17.609278-7.371326-27.232954-7.371325-9.623675 0-19.042591 2.457109-27.232953 7.371325-16.790242 9.623675-27.232953 27.847231-27.232953 47.299341 0 30.09958 24.366327 54.465907 54.465906 54.465906 30.09958 0 54.465907-24.366327 54.465907-54.465906 0-19.45211-10.442711-37.470906-27.232953-47.299341zM566.363527 732.218356v-284.615077c0-30.09958-24.366327-54.465907-54.465907-54.465906-30.09958 0-54.465907 24.366327-54.465906 54.465906v284.615077c0 30.09958 24.366327 54.465907 54.465906 54.465907 30.09958 0 54.465907-24.366327 54.465907-54.465907z"/>
+            
+  
+			</local:MyCard>-->
