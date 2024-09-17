@@ -1,0 +1,24 @@
+<StackPanel.Resources>
+<Style TargetType="StackPanel" x:Key="ContentStack" >
+<Setter Property="Margin" Value="20,40,20,20"/>
+</Style>
+<Style TargetType="local:MyCard" x:Key="Card" >
+<Setter Property="Margin" Value="0,5"/>
+</Style>
+</StackPanel.Resources>
+
+<local:MyCard Title="%Web Site Text/Tag Text%" CanSwap="False" IsSwaped="False" Style="{StaticResource Card}" >
+<StackPanel Style="{StaticResource ContentStack}">
+<StackPanel Margin="8,2,8,15">
+<local:MyListItem Margin="10,1,10,1" ToolTip="" IsHitTestVisible="True"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="%BOverview Text%" Info="By：%Builder Name%"
+	EventType="打开帮助" EventData="%PID%.json" Type="Clickable" />
+<local:MyListItem Margin="10,1,10,1"
+	Logo="pack://application:,,,/images/Blocks/GrassPath.png" Title="%BOverview Text%" Info="%can't Click ListItem%" 
+	EventType="打开帮助" EventData="%PID%.json" Type="Clickable" IsHitTestVisible="False"/>
+<local:MyListItem Margin="40,1,10,1" ToolTip=""
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="%SOverview Text%" IsHitTestVisible="True" Info="By：%Builder Name%"
+	EventType="打开帮助" EventData="%PID%.json" Type="Clickable" />
+</StackPanel>
+</StackPanel>
+</local:MyCard>
