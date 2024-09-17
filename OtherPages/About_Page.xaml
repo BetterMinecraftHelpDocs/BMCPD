@@ -43,7 +43,7 @@
                         <ColumnDefinition />
                         <ColumnDefinition Width="150" />
                     </Grid.ColumnDefinitions>
-					<local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="服务器提供 初始UI设计编写者 群内隐藏大佬" Grid.Row="0" Grid.Column="1" />
+		    <local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="愿乘泠风出浮云 流绮星连终庭芜" Grid.Row="0" Grid.Column="1" />
                     <local:MyListItem Title="[文档]LIPiston" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="1" Grid.Column="1" />
                     <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="2" Grid.Column="1" />
                     <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="3" Grid.Column="1" />
