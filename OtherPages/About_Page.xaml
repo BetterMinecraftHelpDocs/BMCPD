@@ -45,7 +45,7 @@
                     </Grid.ColumnDefinitions>
 					<local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="服务器提供 初始UI设计编写者 群内隐藏大佬" Grid.Row="0" Grid.Column="1" />
                     <local:MyListItem Title="[文档]LIPiston" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="1" Grid.Column="1" />
-                    <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="2" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="「一只普通的dd」" Grid.Row="2" Grid.Column="1" />
                     <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="3" Grid.Column="1" />
                     <local:MyListItem Title="[文档]p" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="4" Grid.Column="1" />
                     <local:MyListItem Title="[外援]最亮的信标" Margin="-5,0,15,0" IsHitTestVisible="False" Info="主页大部分UI由信标设计的 [Joker Say->UI设计这玩意不适合咱理科生]" Grid.Row="5" Grid.Column="1" />
