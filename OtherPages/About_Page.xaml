@@ -11,7 +11,7 @@
                         <ColumnDefinition />
                         <ColumnDefinition Width="150" />
                     </Grid.ColumnDefinitions>
-                    <local:MyListItem IsHitTestVisible="False" Title="Joker2184" Margin="-5,0,15,0" Info="初始UI设计 具体页面规划 主页管理/项目提出者" Grid.Row="0" Grid.Column="1" />
+                    <local:MyListItem IsHitTestVisible="False" Title="Joker2184" Margin="-5,0,15,0" Info="To Be Joker Right?" Grid.Row="0" Grid.Column="1" />
                     <local:MyListItem IsHitTestVisible="False" Title="更好的MC帮助文档 [Homepage For PCL2]" Margin="-5,0,15,0" Info="Version：0d57feb[Snapshot]" Grid.Row="1" Grid.Column="1" x:Name="ItemAboutPcl" />
 					<Image Source="/Plain Craft Launcher 2;component/Images/Heads/Logo.png" Grid.Row="1" Margin="3">
                         <Image.Clip>
