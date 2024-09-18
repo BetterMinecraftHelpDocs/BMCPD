@@ -20,7 +20,9 @@ PCL2->设置 -> 个性化 -> 自定义主页
 
 ### 版权声明与授权许可
 
-[PCL2-NewsHomepage](https://news.bugjump.net) - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[Plain Craft Launcher2](https://github.com/Hex-Dragon/PCL2) - [LICENCE](https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE)
+[PCL2-NewsHomepage ©最亮的信标](https://news.bugjump.net) - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[Plain Craft Launcher2 ©龙腾猫跃](https://github.com/Hex-Dragon/PCL2) - [LICENCE](https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE)
+
 [iconfont](https://www.iconfont.cn) - ©ALIMAMA MUX
 
