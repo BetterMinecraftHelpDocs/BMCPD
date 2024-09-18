@@ -12,7 +12,7 @@
       <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                         Text="回到主页面" EventType="打开帮助" EventData="Main.json" />
       <local:MyButton Margin="0,0,10,0" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                        Text="提交Issue" EventType="打开网页" EventData="https://bmchd.suto.eu.org/" ToolTip="需提交PCL报错图片和PID" />
+                        Text="提交Issue" EventType="打开网页" EventData="https://github.com/BetterMinecraftHelpDocs/BMCPD" ToolTip="需提交PCL报错图片和PID" />
      </StackPanel>    
         <TextBlock Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
                    Text="[PID:ErrorPage-404]" TextAlignment = "Center"/>
@@ -21,8 +21,8 @@
 <local:MyCard Title="页面建设中">
     <StackPanel Margin="25,30,25,30">
         <TextBlock Margin="0,0,0,4" Foreground="Red"
-                   Text="- Building！ -" FontSize="50" TextAlignment = "Center" FontWeight="Bold"/>
-         <local:MyLoading Text="Page Building Now" Foreground="{DynamicResource ColorBrush2}"></local:MyLoading>      
+                   Text="- Building -" FontSize="50" TextAlignment = "Center" FontWeight="Bold"/>
+         <local:MyLoading Text="🛠项目组施工中 Building Now！" Foreground="{DynamicResource ColorBrush2}"></local:MyLoading>      
      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,25,0,0">
       <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
                         Text="刷新当前页面" EventType="刷新主页" ToolTip="请重新获取当前页面" />
@@ -32,9 +32,8 @@
                         Text="提交Issue" EventType="打开网页" EventData="https://github.com/BetterMinecraftHelpDocs/BMCPD" ToolTip="需提交PCL报错图片和PID" />
      </StackPanel>    
         <TextBlock Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
-                   Text="PID:ErrorPage-Building" TextAlignment = "Center"/>
+                   Text="[PID:ErrorPage-Building]" TextAlignment = "Center"/>
     </StackPanel>
 </local:MyCard>
 
-<!--BMCPD项目组施工中 Loading！-->
-<!--未找到文件 404 Not Found -->
+
