@@ -18,3 +18,9 @@ PCL2->设置 -> 个性化 -> 自定义主页
 
 也可以私聊管理 通过测试后加入编写组更新文章！
 
+### 版权声明与授权许可
+
+[PCL2-NewsHomepage](https://news.bugjump.net) - [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[Plain Craft Launcher2](https://github.com/Hex-Dragon/PCL2) - [LICENCE](https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE)
+[iconfont](https://www.iconfont.cn) - ©ALIMAMA MUX
+
