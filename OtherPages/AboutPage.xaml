@@ -12,13 +12,13 @@
                         <ColumnDefinition Width="150" />
                     </Grid.ColumnDefinitions>
                     <local:MyListItem IsHitTestVisible="False" Title="Joker2184" Margin="-5,0,15,0" Info="To Be Joker Right?" Grid.Row="0" Grid.Column="1" />
-                    <local:MyListItem IsHitTestVisible="False" Title="更好的MC帮助文档 [Homepage For PCL2]" Margin="-5,0,15,0" Info="Version：0d57feb[Snapshot]" Grid.Row="1" Grid.Column="1" x:Name="ItemAboutPcl" />
-					<Image Source="/Plain Craft Launcher 2;component/Images/Heads/Logo.png" Grid.Row="1" Margin="3">
+                    <local:MyListItem IsHitTestVisible="False" Title="更好的MC帮助文档 [Homepage For PCL2]" Margin="-5,0,15,0" Info="Version：ad2fda9[Snapshot]" Grid.Row="1" Grid.Column="1" x:Name="ItemAboutPcl" />
+					<Image Source="Nope" Grid.Row="1" Margin="3">
                         <Image.Clip>
                             <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
                         </Image.Clip>
                     </Image>
-                    <Image Source="/Plain Craft Launcher 2;component/Images/Heads/LTCat.jpg" Grid.Row="0" Margin="3">
+                    <Image Source="Nope" Grid.Row="0" Margin="3">
                         <Image.Clip>
                             <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
                         </Image.Clip>
@@ -43,13 +43,14 @@
                         <ColumnDefinition />
                         <ColumnDefinition Width="150" />
                     </Grid.ColumnDefinitions>
-		    <local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="愿乘泠风出浮云 流绮星连终庭芜" Grid.Row="0" Grid.Column="1" />
+		                <local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="True" Grid.ColumnSpan="2" Info="愿乘泠风出浮云 流绮星连终庭芜" Grid.Row="0" Grid.Column="1" EventType="打开网页" EventData="https://github.com/Light-Beacon/HomepageBuilder" />
                     <local:MyListItem Title="[文档]LIPiston" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="1" Grid.Column="1" />
                     <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="「一只普通的dd」" Grid.Row="2" Grid.Column="1" />
                     <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="3" Grid.Column="1" />
                     <local:MyListItem Title="[文档]p" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="4" Grid.Column="1" />
-                    <local:MyListItem Title="[外援]最亮的信标" Margin="-5,0,15,0" IsHitTestVisible="False" Info="主页大部分UI由信标设计的 [Joker Say->UI设计这玩意不适合咱理科生]" Grid.Row="5" Grid.Column="1" />
-                    <local:MyListItem Title="[生成器]HomepageBuilder" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="由最亮的信标编写的主页生成器" Grid.Row="6" Grid.Column="1" />
+                    <local:MyListItem Title="[技术支持]最亮的信标" Margin="-5,0,0,0" IsHitTestVisible="False" Info="" Grid.Row="5" Grid.Column="1" />
+                    <local:MyListItem Title="[PCL2主页构建器]HomepageBuilder" Margin="-40,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="Powered By HomepageBuilder © 2024 Light-Beacon" Grid.Row="6" Grid.Column="1" />
+                    <local:MyButton Text="Go try Builder" Grid.Row="7" Grid.Column="2" Height="35" EventType="打开网页" EventData="https://github.com/Light-Beacon/HomepageBuilder" />
                     <!--
                     
                     <local:MyListItem Title="" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="7" Grid.Column="1" />-->
@@ -79,11 +80,6 @@
                         </Image.Clip>
                     </Image>
                     <Image Source="I Wait Image Bed" Grid.Row="5" Margin="3">
-                        <Image.Clip>
-                            <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
-                        </Image.Clip>
-                    </Image>
-                    <Image Source="I Wait Image Bed" Grid.Row="6" Margin="3">
                         <Image.Clip>
                             <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
                         </Image.Clip>
@@ -121,24 +117,30 @@
                         <RowDefinition Height="60" />
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="60" />
-
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="60" />
                     </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Plain Craft Launcher2" TextWrapping="Wrap" FontWeight="Bold" />
-                    <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 LTCat&#xa;[具体使用页面：About_Page.xaml]" TextWrapping="Wrap" />
-                    <local:MyButton Grid.Row="1" Grid.Column="2" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                     <TextBlock Grid.Row="0" Grid.Column="0" Text="BetterMinecraftHelpDocs Project" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 BetterMinecraftHelpDocs Project&#xa;" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="1" Grid.Column="2" MinWidth="140" Text="查看文档.md文件" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://github.com/BetterMinecraftHelpDocs/docs" />
+                    <local:MyButton Grid.Row="1" Grid.Column="3" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://bmchd.suto.eu.org/" />
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Plain Craft Launcher2" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 龙腾猫跃&#xa;[许可使用条例：PCL2/Licence]" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="3" Grid.Column="2" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/Plain%20Craft%20Launcher%202/Pages/PageOther/PageOtherAbout.xaml" />
-                    <local:MyButton Grid.Row="1" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                    <local:MyButton Grid.Row="3" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE" />
-
-                    <TextBlock Grid.Row="2" Grid.Column="0" Text="BetterMinecraftHelpDocs Project" TextWrapping="Wrap" FontWeight="Bold" />
-                    <TextBlock Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 BetterMinecraftHelpDocs Project&#xa;[具体使用页面：%Text%_Page.xaml]" TextWrapping="Wrap" />
-                    <local:MyButton Grid.Row="3" Grid.Column="2" MinWidth="140" Text="查看文档.md文件" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
-                                    EventType="打开网页" EventData="https://bmchd.suto.eu.org/" />
-                    <local:MyButton Grid.Row="3" Grid.Column="3" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
-                                    EventType="打开网页" EventData="https://bmchd.suto.eu.org/" />
-					<TextBlock Grid.Row="4" Grid.Column="0" Text="Iconfont" TextWrapping="Wrap" FontWeight="Bold" />
-                    <TextBlock Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © ALIMAMA MUX, powered by alimama THX.&#xa;[具体使用页面：All Page SVG Logo]" TextWrapping="Wrap" />
-                    <local:MyButton Grid.Row="5" Grid.Column="2" MinWidth="140" Text="查看原网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+					           <TextBlock Grid.Row="4" Grid.Column="0" Text="PCL2-NewsHomepage" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © 2024 Light-Beacon&#xa;[许可使用条例：CC BY-NC-SA 4.0]" TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="5" Grid.Column="2" MinWidth="140" Text="查看来源网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://news.bugjump.net" />
+                    <local:MyButton Grid.Row="5" Grid.Column="3" MinWidth="140" Text="查看许可文档" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
+                                    EventType="打开网页" EventData="https://github.com/Light-Beacon/PCL2-NewsHomepage/blob/main/LICENSE-CONTENT" />
+                    <TextBlock Grid.Row="6" Grid.Column="0" Text="Iconfont" TextWrapping="Wrap" FontWeight="Bold" />
+                    <TextBlock Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Text="Copyright © ALIMAMA MUX, powered by alimama THX." TextWrapping="Wrap" />
+                    <local:MyButton Grid.Row="7" Grid.Column="2" MinWidth="140" Text="查看原网站" Padding="13,0" Margin="0,7,20,18" HorizontalAlignment="Left"
                                     EventType="打开网页" EventData="https://www.iconfont.cn/" />
                 </Grid>
             </local:MyCard>
