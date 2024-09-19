@@ -50,7 +50,7 @@
                     <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="3" Grid.Column="1" />
                     <local:MyListItem Title="[文档]p" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="4" Grid.Column="1" />
                     <local:MyListItem Title="[技术支持]最亮的信标" Margin="-5,0,0,0" IsHitTestVisible="False" Info="" Grid.Row="5" Grid.Column="1" />
-                    <local:MyListItem Title="填ID" Margin="-5,0,0,0" IsHitTestVisible="False" Info="填句子" Grid.Row="6" Grid.Column="1" />
+                    <local:MyListItem Title="[吉祥物]Bingxin" Margin="-5,0,0,0" IsHitTestVisible="False" Info="我写主页？真的假的？" Grid.Row="6" Grid.Column="1" />
                     <local:MyListItem Title="[PCL2主页构建器]HomepageBuilder" Margin="-40,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="Powered By HomepageBuilder © 2024 Light-Beacon" Grid.Row="7" Grid.Column="1" />
                     <local:MyButton Text="Go try Builder" Grid.Row="7" Grid.Column="2" Height="35" EventType="打开网页" EventData="https://github.com/Light-Beacon/HomepageBuilder" />
                     <!--
