@@ -1,4 +1,4 @@
-<local:MyCard Title="服务器.exe未响应">
+<local:MyCard Title="服务器未响应">
     <StackPanel Margin="25,30,25,30">
         <TextBlock Margin="0,0,0,4" Foreground="Red"
                    Text="- 404 -" FontSize="50" TextAlignment = "Center" FontWeight="Bold"/>
@@ -35,5 +35,23 @@
                    Text="[PID:ErrorPage-Building]" TextAlignment = "Center"/>
     </StackPanel>
 </local:MyCard>
-
-
+<local:MyCard Title="Page Locked">
+    <StackPanel Margin="25,30,25,30">
+        <TextBlock Margin="0,0,0,4" Foreground="Red"
+                   Text="- Locking -" FontSize="50" TextAlignment = "Center" FontWeight="Bold"/>
+        <TextBlock Margin="0,15,0,4" Foreground="Red" FontSize="16"
+                   Text="页面锁定中" TextAlignment = "Center"/>           
+        <TextBlock Margin="0,15,0,4" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
+                   Text="当前页面暂未上线" TextAlignment = "Center"/>       
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,25,0,0">
+      <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                        Text="刷新当前页面" EventType="刷新主页" ToolTip="说不定就上线了呢?" />
+      <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="回到主页面" EventType="打开帮助" EventData="Main.json" />
+      <local:MyButton Margin="0,0,10,0" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                        Text="提交Issue" EventType="打开网页" EventData="https://github.com/BetterMinecraftHelpDocs/BMCPD" ToolTip="需提交PCL报错图片和PID" />
+     </StackPanel>    
+        <TextBlock Margin="0,15,0,0" Foreground="{DynamicResource ColorBrush3}" FontSize="16"
+                   Text="[PID:ErrorPage-Locking]" TextAlignment = "Center"/>
+    </StackPanel>
+</local:MyCard>
