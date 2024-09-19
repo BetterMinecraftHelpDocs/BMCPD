@@ -1,0 +1,30 @@
+<StackPanel.Resources>
+<Style TargetType="StackPanel" x:Key="ContentStack" >
+<Setter Property="Margin" Value="20,40,20,20"/>
+</Style>
+<Style TargetType="local:MyCard" x:Key="Card" >
+<Setter Property="Margin" Value="0,5"/>
+</Style>
+</StackPanel.Resources>
+
+<local:MyCard Title="索引页" CanSwap="False" IsSwaped="False" Style="{StaticResource Card}" >
+<StackPanel Style="{StaticResource ContentStack}">
+<StackPanel Margin="8,2,8,15">
+<local:MyListItem Margin="10,1,10,1" ToolTip="" IsHitTestVisible="False"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="新手上路" Info="GetStart&amp;EasyWindows"/>
+<local:MyListItem Margin="40,1,10,1" ToolTip="" IsHitTestVisible="True"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="新手上路" Info="作者：Natsumi 贡献者: Roren,MR.JOKER,js-tst"
+	EventType="打开帮助" EventData="%PID%.json" Type="Clickable" />
+<local:MyListItem Margin="40,1,10,1" ToolTip="" IsHitTestVisible="False"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="Windows基础" Info="总得为新人考虑对吧 可以直接往后面看看了"/>
+<local:MyListItem Margin="80,1,10,1" ToolTip="" IsHitTestVisible="True"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="0.0.1 前言" Info="作者：Verdigris 贡献者: js-tst"
+	EventType="打开帮助" EventData="%PID%.json" Type="Clickable" />
+<local:MyListItem Margin="80,1,10,1" ToolTip="" IsHitTestVisible="True"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="1.0.1 文件的解压操作" Info="作者：Verdigris 贡献者: js-tst"
+	EventType="打开帮助" EventData="%PID%.json" Type="Clickable" />
+<local:MyListItem Margin="10,1,10,1" ToolTip="" IsHitTestVisible="False"
+	Logo="pack://application:,,,/images/Blocks/Grass.png" Title="游玩文档" Info="MultiplayerFun&amp;PlayPro"/>
+</StackPanel>
+</StackPanel>
+</local:MyCard>
