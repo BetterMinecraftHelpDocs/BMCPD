@@ -11,9 +11,10 @@
                         <ColumnDefinition />
                         <ColumnDefinition Width="150" />
                     </Grid.ColumnDefinitions>
-                    <local:MyListItem IsHitTestVisible="False" Title="Joker2184" Margin="-5,0,15,0" Info="To Be Joker Right?" Grid.Row="0" Grid.Column="1" />
+                    <local:MyListItem IsHitTestVisible="False" Title="Joker2184" Margin="-5,0,15,0" Info="不是🕊们,算了咕一下" Grid.Row="0" Grid.Column="1" />
                     <local:MyListItem IsHitTestVisible="False" Title="更好的MC帮助文档 [Homepage For PCL2]" Margin="-5,0,15,0" Info="Version：ad2fda9[Snapshot]" Grid.Row="1" Grid.Column="1" x:Name="ItemAboutPcl" />
-					<Image Source="Nope" Grid.Row="1" Margin="3">
+					 <local:MyButton Text="Join Us | 加入我们" Grid.Column="2" Grid.Row="1" Height="35" EventType="打开网页" EventData="https://github.com/BetterMinecraftHelpDocs"/>
+                    <Image Source="Nope" Grid.Row="1" Margin="3">
                         <Image.Clip>
                             <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
                         </Image.Clip>
@@ -23,8 +24,6 @@
                             <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
                         </Image.Clip>
                     </Image>
-                    <local:MyButton Text="Join Us | 加入我们" Grid.Column="2" Grid.Row="0" Height="35" EventType="打开网页" EventData="https://github.com/BetterMinecraftHelpDocs" />
-                    <local:MyButton Text="查看源代码" Grid.Column="2" Grid.Row="1" Height="35" EventType="打开网页"/>
                 </Grid>
             </local:MyCard>
             <local:MyCard Margin="0,0,0,15" Title="特别鸣谢">
@@ -44,13 +43,13 @@
                         <ColumnDefinition />
                         <ColumnDefinition Width="150" />
                     </Grid.ColumnDefinitions>
-		                <local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="True" Grid.ColumnSpan="2" Info="愿乘泠风出浮云 流绮星连终庭芜" Grid.Row="0" Grid.Column="1" EventType="打开网页" EventData="https://github.com/Light-Beacon/HomepageBuilder" />
-                    <local:MyListItem Title="[文档]LIPiston" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="1" Grid.Column="1" />
-                    <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="「一只普通的dd」" Grid.Row="2" Grid.Column="1" />
-                    <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="3" Grid.Column="1" />
-                    <local:MyListItem Title="[文档]p" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="4" Grid.Column="1" />
-                    <local:MyListItem Title="[技术支持]最亮的信标" Margin="-5,0,0,0" IsHitTestVisible="False" Info="" Grid.Row="5" Grid.Column="1" />
-                    <local:MyListItem Title="[吉祥物]Bingxin" Margin="-5,0,0,0" IsHitTestVisible="False" Info="我写主页？真的假的？" Grid.Row="6" Grid.Column="1" />
+		    <local:MyListItem Title="[吉祥物]Bingxin" Margin="-5,0,0,0" IsHitTestVisible="False" Info="我写主页？真的假的？" Grid.Row="0" Grid.Column="1" />
+                    <local:MyListItem Title="[主页]泠绮芜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="愿乘泠风出浮云 流绮星连终庭芜 -" Grid.Row="1" Grid.Column="1"/>
+                    <local:MyListItem Title="[文档]LIPiston" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="2" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]Tonycolin" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="「一只普通的dd」" Grid.Row="3" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]碱式碳酸铜" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="4" Grid.Column="1" />
+                    <local:MyListItem Title="[文档]p" Margin="-5,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="" Grid.Row="5" Grid.Column="1" />
+                    <local:MyListItem Title="[技术支持]最亮的信标" Margin="-5,0,0,0" IsHitTestVisible="False" Info="掌管UI设计的神" Grid.Row="6" Grid.Column="1" />
                     <local:MyListItem Title="[PCL2主页构建器]HomepageBuilder" Margin="-40,0,0,0" IsHitTestVisible="False" Grid.ColumnSpan="2" Info="Powered By HomepageBuilder © 2024 Light-Beacon" Grid.Row="7" Grid.Column="1" />
                     <local:MyButton Text="Go try Builder" Grid.Row="7" Grid.Column="2" Height="35" EventType="打开网页" EventData="https://github.com/Light-Beacon/HomepageBuilder" />
                     <!--
