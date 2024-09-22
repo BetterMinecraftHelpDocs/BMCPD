@@ -1,0 +1,67 @@
+<FlowDocumentReader>
+  <FlowDocument>
+
+    <Table CellSpacing="5">
+
+      <Table.Columns>
+        <TableColumn/>
+        <TableColumn/>
+        <TableColumn/>
+        <TableColumn/>
+      </Table.Columns>
+
+      <TableRowGroup>
+
+
+        <TableRow Background="SkyBlue">
+          <TableCell ColumnSpan="4" TextAlignment="Center">
+            <Paragraph FontSize="24pt">Support For</Paragraph>
+          </TableCell>
+        </TableRow>
+
+    
+        <TableRow Background="LightGoldenrodYellow">
+          <TableCell><Paragraph>Mod加载器</Paragraph></TableCell>
+          <TableCell><Paragraph FontSize="14pt">PCL</Paragraph></TableCell>
+          <TableCell><Paragraph FontSize="14pt">HMCL</Paragraph></TableCell>
+          <TableCell><Paragraph FontSize="14pt">Baka XL</Paragraph></TableCell>
+          <TableCell><Paragraph FontSize="14pt">MuiltMC</Paragraph></TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell><Paragraph>Forge</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+        </TableRow>
+        <TableRow Background="lightgray">
+          <TableCell><Paragraph>Fabric</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell><Paragraph>Quilt</Paragraph></TableCell>
+          <TableCell><Paragraph>❌</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>⭕</Paragraph></TableCell>
+          <TableCell><Paragraph>⭕</Paragraph></TableCell>
+        </TableRow>
+        <TableRow Background="lightgray">
+          <TableCell><Paragraph>Lite loader</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+          <TableCell><Paragraph>✔️</Paragraph></TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="4"><Paragraph FontSize="10pt" FontStyle="Italic">
+             BMCHD 呈现 ✔️:支持 ⭕：未知 ❌：不支持
+            </Paragraph></TableCell>
+        </TableRow>
+      
+      </TableRowGroup>
+    </Table>
+  </FlowDocument>
+</FlowDocumentReader>
